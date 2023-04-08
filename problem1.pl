@@ -93,30 +93,4 @@ crossPuzzle(S, Visited, Path) :-
     \+member(S2, Visited),
     % call CrossPuzzle for new state
     crossPuzzle(S2, [S2|Visited], Path) , !.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
